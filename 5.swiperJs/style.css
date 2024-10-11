@@ -1,0 +1,39 @@
+body {
+    background-color: #1e1e1e;
+    padding: 0;
+}
+
+.swiper {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+.swiper-wraper {
+    background-color: #555;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.btn {
+    position: absolute;
+    top: 45%;
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 2px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.prev {
+    left: 2%;
+}
+.next {
+    right: 2%;
+}
